@@ -9,10 +9,10 @@ module.exports = {
       keyframes: {
         walking: {
           "0%": {
-            transform: "translate(0)",
+            transform: "translate(-700px)",
           },
           "100%": {
-            transform: "translate(90vw)",
+            transform: "translate(calc(100vw + 200px))",
           },
         },
       },
